@@ -36,10 +36,10 @@ class OpenAIChatControllerNegativeTest {
         when(requestSpec.user(userMessage)).thenReturn(requestSpec);
         when(requestSpec.call()).thenThrow(new RuntimeException("OpenAI API error: rate limit exceeded"));
 
-        RuntimeException exception = assertThrows(RuntimeException.class,
+        OpenAIChatException exception = assertThrows(OpenAIChatException.class,
                 () -> controller.summarize(userMessage));
 
-        assertEquals("OpenAI API error: rate limit exceeded", exception.getMessage());
+        assertTrue(exception.getMessage().contains("OpenAI API error: rate limit exceeded"));
     }
 
     @Test
