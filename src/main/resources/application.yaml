@@ -19,6 +19,13 @@ spring:
             model: Qwen/Qwen2.5-Coder-7B-Instruct
             max-new-tokens: 1024
             temperature: 0.7
+    Ollama:
+      base-url: http://localhost:11434
+      chat:
+        options:
+          model: llama3.2:1b
+          max-new-token: 512
+          temperature : 0.7
 
 logging:
   level:

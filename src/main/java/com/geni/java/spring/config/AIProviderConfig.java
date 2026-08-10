@@ -1,6 +1,7 @@
 package com.geni.java.spring.config;
 
 import org.springframework.ai.chat.client.ChatClient;
+import org.springframework.ai.ollama.OllamaChatModel;
 import org.springframework.ai.openai.OpenAiChatModel;
 import org.springframework.ai.huggingface.HuggingfaceChatModel;
 import org.springframework.context.annotation.Bean;
@@ -19,5 +20,11 @@ public class AIProviderConfig {
     ChatClient huggingFaceChatClient(HuggingfaceChatModel huggingFaceChatModel)
     {
          return ChatClient.builder(huggingFaceChatModel).build();
+    }
+
+    @Bean("OllamaChatClient")
+    ChatClient ollamaChatClient(OllamaChatModel ollamaChatModel)
+    {
+        return ChatClient.builder(ollamaChatModel).build();
     }
 }

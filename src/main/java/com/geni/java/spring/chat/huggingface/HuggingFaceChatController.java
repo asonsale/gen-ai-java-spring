@@ -2,7 +2,6 @@ package com.geni.java.spring.chat.huggingface;
 
 
 import com.geni.java.spring.chat.openai.OpenAIChatException;
-import org.jspecify.annotations.Nullable;
 import org.springframework.ai.chat.client.ChatClient;
 import org.springframework.ai.chat.client.ChatClientResponse;
 import org.springframework.beans.factory.annotation.Qualifier;
@@ -37,7 +36,7 @@ public class HuggingFaceChatController {
                     .call()
                     .chatClientResponse();
         } catch (Exception e) {
-            throw new OpenAIChatException("Failed to get response from OpenAI: " + e.getMessage(), e);
+            throw new OpenAIChatException("Failed to get response from : " + e.getMessage(), e);
         }
     }
 }
