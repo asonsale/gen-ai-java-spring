@@ -7,6 +7,7 @@ import org.mockito.MockitoAnnotations;
 import org.springframework.ai.chat.client.ChatClient;
 
 import static org.junit.jupiter.api.Assertions.*;
+import static org.mockito.ArgumentMatchers.anyString;
 import static org.mockito.Mockito.when;
 
 class OpenAIChatControllerNegativeTest {
@@ -33,6 +34,7 @@ class OpenAIChatControllerNegativeTest {
         String userMessage = "Some meeting notes";
 
         when(chatClient.prompt()).thenReturn(requestSpec);
+        when(requestSpec.system(anyString())).thenReturn(requestSpec);
         when(requestSpec.user(userMessage)).thenReturn(requestSpec);
         when(requestSpec.call()).thenThrow(new RuntimeException("OpenAI API error: rate limit exceeded"));
 
@@ -45,6 +47,7 @@ class OpenAIChatControllerNegativeTest {
     @Test
     void summarize_whenMessageIsNull_currentlyPassesNullThrough() {
         when(chatClient.prompt()).thenReturn(requestSpec);
+        when(requestSpec.system(anyString())).thenReturn(requestSpec);
         when(requestSpec.user((String) null)).thenReturn(requestSpec);
         when(requestSpec.call()).thenReturn(callResponseSpec);
         when(callResponseSpec.content()).thenReturn("");
@@ -52,7 +55,6 @@ class OpenAIChatControllerNegativeTest {
         String result = controller.summarize(null);
 
         assertEquals("", result);
-        // This test documents current (unsafe) behavior — no null validation exists yet
     }
 
     @Test
@@ -60,6 +62,7 @@ class OpenAIChatControllerNegativeTest {
         String emptyMessage = "";
 
         when(chatClient.prompt()).thenReturn(requestSpec);
+        when(requestSpec.system(anyString())).thenReturn(requestSpec);
         when(requestSpec.user(emptyMessage)).thenReturn(requestSpec);
         when(requestSpec.call()).thenReturn(callResponseSpec);
         when(callResponseSpec.content()).thenReturn("");
@@ -67,6 +70,5 @@ class OpenAIChatControllerNegativeTest {
         String result = controller.summarize(emptyMessage);
 
         assertEquals("", result);
-        // This test documents current (unsafe) behavior — no empty-string validation exists yet
     }
 }

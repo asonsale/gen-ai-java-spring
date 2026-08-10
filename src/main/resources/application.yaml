@@ -11,6 +11,14 @@ spring:
         options:
           model: gpt-4o-mini
           max-tokens: 300
+    hugginface:
+      chat:
+        api-key: ${Hugging_Face_Token}
+        url:
+        options:
+            model: Qwen/Qwen2.5-Coder-7B-Instruct
+            max-new-tokens: 1024
+            temperature: 0.7
 
 logging:
   level:

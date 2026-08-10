@@ -7,6 +7,7 @@ import org.mockito.MockitoAnnotations;
 import org.springframework.ai.chat.client.ChatClient;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.mockito.ArgumentMatchers.anyString;
 import static org.mockito.Mockito.when;
 
 class OpenAIChatControllerTest {
@@ -34,6 +35,7 @@ class OpenAIChatControllerTest {
         String mockedResponse = "This is a mocked summary response";
 
         when(chatClient.prompt()).thenReturn(requestSpec);
+        when(requestSpec.system(anyString())).thenReturn(requestSpec);
         when(requestSpec.user(userMessage)).thenReturn(requestSpec);
         when(requestSpec.call()).thenReturn(callResponseSpec);
         when(callResponseSpec.content()).thenReturn(mockedResponse);
