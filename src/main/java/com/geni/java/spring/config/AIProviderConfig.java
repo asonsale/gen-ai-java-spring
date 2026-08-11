@@ -27,4 +27,5 @@ public class AIProviderConfig {
     {
         return ChatClient.builder(ollamaChatModel).build();
     }
+    
 }

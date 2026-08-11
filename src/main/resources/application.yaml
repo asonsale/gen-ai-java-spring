@@ -6,11 +6,11 @@ spring:
     name: gen-ai-java-spring
   ai:
     openai:
-      api-key: ${OPENAI_API_KEY}
+      api-key: dummy-string
+      base-url: http://localhost:12434/engines/llama.cpp
       chat:
         options:
-          model: gpt-4o-mini
-          max-tokens: 300
+          model: ai/gemma3:4b
     hugginface:
       chat:
         api-key: ${Hugging_Face_Token}
