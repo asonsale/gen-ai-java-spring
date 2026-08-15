@@ -1,0 +1,108 @@
+2026-08-14 17:21:43 [main] INFO  traceId= spanId= c.g.j.s.GenAiJavaSpringApplication - Starting GenAiJavaSpringApplication using Java 25.0.4 with PID 7928 (C:\Users\asons\OneDrive\Documents\Interview_Notes\Assignment\gen-ai-java-spring\gen-ai-java-spring\target\classes started by asons in C:\Users\asons\OneDrive\Documents\Interview_Notes\Assignment\gen-ai-java-spring\gen-ai-java-spring)
+2026-08-14 17:21:43 [main] INFO  traceId= spanId= c.g.j.s.GenAiJavaSpringApplication - No active profile set, falling back to 1 default profile: "default"
+2026-08-14 17:21:46 [main] INFO  traceId= spanId= o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-08-14 17:21:46 [main] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-08-14 17:21:46 [main] INFO  traceId= spanId= o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-08-14 17:21:46 [main] INFO  traceId= spanId= o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.49]
+2026-08-14 17:21:47 [main] INFO  traceId= spanId= o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-08-14 17:21:47 [main] INFO  traceId= spanId= o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3721 ms
+2026-08-14 17:21:49 [main] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2026-08-14 17:21:49 [main] INFO  traceId= spanId= o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2026-08-14 17:21:49 [main] INFO  traceId= spanId= c.g.j.s.GenAiJavaSpringApplication - Started GenAiJavaSpringApplication in 8.759 seconds (process running for 10.67)
+2026-08-14 17:22:09 [http-nio-8081-exec-2] INFO  traceId= spanId= o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-08-14 17:22:09 [http-nio-8081-exec-2] INFO  traceId= spanId= o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-08-14 17:22:09 [http-nio-8081-exec-2] INFO  traceId= spanId= o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2026-08-14 17:28:50 [SpringApplicationShutdownHook] INFO  traceId= spanId= o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-08-14 17:28:51 [tomcat-shutdown] INFO  traceId= spanId= o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-08-14 17:32:26 [main] INFO  traceId= spanId= c.g.j.s.GenAiJavaSpringApplication - Starting GenAiJavaSpringApplication using Java 25.0.4 with PID 19584 (C:\Users\asons\OneDrive\Documents\Interview_Notes\Assignment\gen-ai-java-spring\gen-ai-java-spring\target\classes started by asons in C:\Users\asons\OneDrive\Documents\Interview_Notes\Assignment\gen-ai-java-spring\gen-ai-java-spring)
+2026-08-14 17:32:26 [main] INFO  traceId= spanId= c.g.j.s.GenAiJavaSpringApplication - No active profile set, falling back to 1 default profile: "default"
+2026-08-14 17:32:29 [main] INFO  traceId= spanId= o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-08-14 17:32:29 [main] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-08-14 17:32:29 [main] INFO  traceId= spanId= o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-08-14 17:32:29 [main] INFO  traceId= spanId= o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.49]
+2026-08-14 17:32:29 [main] INFO  traceId= spanId= o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-08-14 17:32:29 [main] INFO  traceId= spanId= o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3187 ms
+2026-08-14 17:32:32 [main] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2026-08-14 17:32:32 [main] INFO  traceId= spanId= o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2026-08-14 17:32:32 [main] INFO  traceId= spanId= c.g.j.s.GenAiJavaSpringApplication - Started GenAiJavaSpringApplication in 7.792 seconds (process running for 20.427)
+2026-08-14 17:33:20 [http-nio-8081-exec-2] INFO  traceId= spanId= o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-08-14 17:33:20 [http-nio-8081-exec-2] INFO  traceId= spanId= o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-08-14 17:33:20 [http-nio-8081-exec-2] INFO  traceId= spanId= o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2026-08-14 17:33:21 [http-nio-8081-exec-2] DEBUG traceId= spanId= o.s.a.c.c.a.SimpleLoggerAdvisor - request: ChatClientRequest[prompt=Prompt{messages=[UserMessage{content='Give me top 10 cricket batsmen list', metadata={messageType=USER}, messageType=USER}], modelOptions=OpenAiChatOptions: {"streamUsage":false,"model":"ai/gemma3:4b","temperature":0.7}}, context={spring.ai.chat.client.output.format=Your response should be in JSON format.
+The data structure for the JSON should match this Java class: java.util.HashMap
+Do not include any explanations, only provide a RFC8259 compliant JSON response following this format without deviation.
+Remove the ```json markdown surrounding the output including the trailing "```".
+}]
+2026-08-14 17:36:38 [http-nio-8081-exec-2] DEBUG traceId= spanId= o.s.a.c.c.a.SimpleLoggerAdvisor - response: {
+  "result" : {
+    "metadata" : {
+      "finishReason" : "STOP",
+      "contentFilters" : [ ],
+      "empty" : true
+    },
+    "output" : {
+      "messageType" : "ASSISTANT",
+      "metadata" : {
+        "role" : "ASSISTANT",
+        "messageType" : "ASSISTANT",
+        "refusal" : "",
+        "finishReason" : "STOP",
+        "index" : 0,
+        "annotations" : [ { } ],
+        "id" : "chatcmpl-440N8MS5yyMR08Ob4P3Fag6vY90wQCW2"
+      },
+      "toolCalls" : [ ],
+      "media" : [ ],
+      "text" : "```json\n{\n  \"top10cricketbatsmen\": [\n    {\n      \"rank\": 1,\n      \"name\": \"Sachin Tendulkar\"\n    },\n    {\n      \"rank\": 2,\n      \"name\": \"Virat Kohli\"\n    },\n    {\n      \"rank\": 3,\n      \"name\": \"Ricky Ponting\"\n    },\n    {\n      \"rank\": 4,\n      \"name\": \"Brian Lara\"\n    },\n    {\n      \"rank\": 5,\n      \"name\": \"Don Bradman\"\n    },\n    {\n      \"rank\": 6,\n      \"name\": \"Kumar Sangakkara\"\n    },\n    {\n      \"rank\": 7,\n      \"name\": \"Steve Smith\"\n    },\n    {\n      \"rank\": 8,\n      \"name\": \"Mahela Jayawardene\"\n    },\n    {\n      \"rank\": 9,\n      \"name\": \"Jacques Kallis\"\n    },\n    {\n      \"rank\": 10,\n      \"name\": \"AB de Villiers\"\n    }\n  ]\n}\n```"
+    }
+  },
+  "metadata" : {
+    "id" : "chatcmpl-440N8MS5yyMR08Ob4P3Fag6vY90wQCW2",
+    "model" : "gemma-3-4b-it-Q4_K_M.gguf",
+    "rateLimit" : {
+      "requestsLimit" : null,
+      "requestsRemaining" : null,
+      "requestsReset" : null,
+      "tokensLimit" : null,
+      "tokensRemaining" : null,
+      "tokensReset" : null
+    },
+    "usage" : {
+      "promptTokens" : 85,
+      "completionTokens" : 265,
+      "totalTokens" : 350,
+      "nativeUsage" : {
+        "completion_tokens" : 265,
+        "prompt_tokens" : 85,
+        "total_tokens" : 350,
+        "prompt_tokens_details" : {
+          "cached_tokens" : 0
+        }
+      }
+    },
+    "promptMetadata" : [ ],
+    "empty" : false
+  },
+  "results" : [ {
+    "metadata" : {
+      "finishReason" : "STOP",
+      "contentFilters" : [ ],
+      "empty" : true
+    },
+    "output" : {
+      "messageType" : "ASSISTANT",
+      "metadata" : {
+        "role" : "ASSISTANT",
+        "messageType" : "ASSISTANT",
+        "refusal" : "",
+        "finishReason" : "STOP",
+        "index" : 0,
+        "annotations" : [ { } ],
+        "id" : "chatcmpl-440N8MS5yyMR08Ob4P3Fag6vY90wQCW2"
+      },
+      "toolCalls" : [ ],
+      "media" : [ ],
+      "text" : "```json\n{\n  \"top10cricketbatsmen\": [\n    {\n      \"rank\": 1,\n      \"name\": \"Sachin Tendulkar\"\n    },\n    {\n      \"rank\": 2,\n      \"name\": \"Virat Kohli\"\n    },\n    {\n      \"rank\": 3,\n      \"name\": \"Ricky Ponting\"\n    },\n    {\n      \"rank\": 4,\n      \"name\": \"Brian Lara\"\n    },\n    {\n      \"rank\": 5,\n      \"name\": \"Don Bradman\"\n    },\n    {\n      \"rank\": 6,\n      \"name\": \"Kumar Sangakkara\"\n    },\n    {\n      \"rank\": 7,\n      \"name\": \"Steve Smith\"\n    },\n    {\n      \"rank\": 8,\n      \"name\": \"Mahela Jayawardene\"\n    },\n    {\n      \"rank\": 9,\n      \"name\": \"Jacques Kallis\"\n    },\n    {\n      \"rank\": 10,\n      \"name\": \"AB de Villiers\"\n    }\n  ]\n}\n```"
+    }
+  } ]
+}
