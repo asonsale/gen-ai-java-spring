@@ -8,6 +8,12 @@ public class SummarizationResponse {
     private List<String> decisions;
     private String errorMessage;
 
+    public SummarizationResponse(List<String> actionItems, List<String> decisions, String errorMessage) {
+        this.actionItems = actionItems;
+        this.decisions = decisions;
+        this.errorMessage = errorMessage;
+    }
+
     public List<String> getActionItems() {
         return actionItems;
     }

@@ -1,0 +1,22 @@
+2026-08-15 09:25:59 [SpringApplicationShutdownHook] INFO  traceId= spanId= o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-08-15 09:26:00 [tomcat-shutdown] INFO  traceId= spanId= o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-08-15 10:01:15 [main] INFO  traceId= spanId= c.g.j.s.GenAiJavaSpringApplication - Starting GenAiJavaSpringApplication using Java 25.0.4 with PID 29012 (C:\Users\asons\OneDrive\Documents\Interview_Notes\Assignment\gen-ai-java-spring\gen-ai-java-spring\target\classes started by asons in C:\Users\asons\OneDrive\Documents\Interview_Notes\Assignment\gen-ai-java-spring\gen-ai-java-spring)
+2026-08-15 10:01:15 [main] INFO  traceId= spanId= c.g.j.s.GenAiJavaSpringApplication - No active profile set, falling back to 1 default profile: "default"
+2026-08-15 10:01:20 [main] INFO  traceId= spanId= o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-08-15 10:01:20 [main] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-08-15 10:01:20 [main] INFO  traceId= spanId= o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-08-15 10:01:20 [main] INFO  traceId= spanId= o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.49]
+2026-08-15 10:01:20 [main] INFO  traceId= spanId= o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-08-15 10:01:20 [main] INFO  traceId= spanId= o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 5560 ms
+2026-08-15 10:01:26 [main] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2026-08-15 10:01:26 [main] INFO  traceId= spanId= o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2026-08-15 10:01:26 [main] INFO  traceId= spanId= c.g.j.s.GenAiJavaSpringApplication - Started GenAiJavaSpringApplication in 14.485 seconds (process running for 17.246)
+2026-08-15 10:01:59 [http-nio-8081-exec-2] INFO  traceId= spanId= o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-08-15 10:01:59 [http-nio-8081-exec-2] INFO  traceId= spanId= o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-08-15 10:01:59 [http-nio-8081-exec-2] INFO  traceId= spanId= o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2026-08-15 10:02:00 [http-nio-8081-exec-2] ERROR traceId= spanId= o.s.ai.converter.BeanOutputConverter - Could not parse the given text to the desired target type: "I'm unable to respond to that due to sensitive content. Could we rephrase or discuss something else?" into class com.geni.java.spring.chat.openai.dto.response.SummarizationResponse
+2026-08-15 10:18:19 [SpringApplicationShutdownHook] INFO  traceId= spanId= o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-08-15 10:18:19 [tomcat-shutdown] INFO  traceId= spanId= o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-08-15 11:04:38 [main] INFO  traceId= spanId= c.g.j.s.GenAiJavaSpringApplicationTests - Starting GenAiJavaSpringApplicationTests using Java 25.0.4 with PID 28556 (started by asons in C:\Users\asons\OneDrive\Documents\Interview_Notes\Assignment\gen-ai-java-spring\gen-ai-java-spring)
+2026-08-15 11:04:38 [main] INFO  traceId= spanId= c.g.j.s.GenAiJavaSpringApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2026-08-15 11:04:43 [main] INFO  traceId= spanId= c.g.j.s.GenAiJavaSpringApplicationTests - Started GenAiJavaSpringApplicationTests in 6.385 seconds (process running for 13.278)

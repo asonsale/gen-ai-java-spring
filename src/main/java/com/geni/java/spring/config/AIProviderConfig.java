@@ -1,6 +1,8 @@
 package com.geni.java.spring.config;
 
+import com.geni.java.spring.chat.advisor.ErrorAdvisor;
 import org.springframework.ai.chat.client.ChatClient;
+import org.springframework.ai.chat.client.advisor.SafeGuardAdvisor;
 import org.springframework.ai.chat.client.advisor.SimpleLoggerAdvisor;
 import org.springframework.ai.ollama.OllamaChatModel;
 import org.springframework.ai.openai.OpenAiChatModel;
@@ -8,15 +10,15 @@ import org.springframework.ai.huggingface.HuggingfaceChatModel;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
+import java.util.List;
+
 @Configuration
 public class AIProviderConfig {
 
     @Bean("OpenAIChatClient")
-    ChatClient openAIChatClient(OpenAiChatModel openAiChatModel, SimpleLoggerAdvisor simpleLoggerAdvisor){
-
-
+    ChatClient openAIChatClient(OpenAiChatModel openAiChatModel, SimpleLoggerAdvisor simpleLoggerAdvisor, SafeGuardAdvisor safeGuardAdvisor, ErrorAdvisor errorAdvisor){
         return ChatClient.builder(openAiChatModel)
-                        .defaultAdvisors(simpleLoggerAdvisor)
+                        .defaultAdvisors(simpleLoggerAdvisor,safeGuardAdvisor(),errorAdvisor)
                         .build();
     }
 
@@ -36,5 +38,11 @@ public class AIProviderConfig {
     SimpleLoggerAdvisor simpleLoggerAdvisor()
     {
         return new SimpleLoggerAdvisor();
+    }
+
+    @Bean
+    SafeGuardAdvisor safeGuardAdvisor()
+    {
+        return new SafeGuardAdvisor(List.of("password","hack"));
     }
 }
