@@ -4,13 +4,17 @@ server:
 spring:
   application:
     name: gen-ai-java-spring
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB
   ai:
     openai:
-      api-key: dummy-string
-      base-url: http://localhost:12434/engines/llama.cpp
+      api-key: ${OPENAI_API_KEY}
+      #base-url: http://localhost:12434/engines/llama.cpp
       chat:
         options:
-          model: ai/gemma3:4b
+          model: gpt-4o
     hugginface:
       chat:
         api-key: ${Hugging_Face_Token}

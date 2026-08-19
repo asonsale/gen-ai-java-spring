@@ -2,8 +2,10 @@ package com.geni.java.spring.config;
 
 import com.geni.java.spring.chat.advisor.ErrorAdvisor;
 import org.springframework.ai.chat.client.ChatClient;
+import org.springframework.ai.chat.client.advisor.MessageChatMemoryAdvisor;
 import org.springframework.ai.chat.client.advisor.SafeGuardAdvisor;
 import org.springframework.ai.chat.client.advisor.SimpleLoggerAdvisor;
+import org.springframework.ai.chat.memory.ChatMemory;
 import org.springframework.ai.ollama.OllamaChatModel;
 import org.springframework.ai.openai.OpenAiChatModel;
 import org.springframework.ai.huggingface.HuggingfaceChatModel;
@@ -20,6 +22,20 @@ public class AIProviderConfig {
         return ChatClient.builder(openAiChatModel)
                         .defaultAdvisors(simpleLoggerAdvisor,safeGuardAdvisor(),errorAdvisor)
                         .build();
+    }
+
+    @Bean("OpenAIGeneralChatClient")
+    ChatClient openAIGeneralChatClient(OpenAiChatModel openAiChatModel)
+    {
+        return ChatClient.builder(openAiChatModel).build();
+    }
+
+    @Bean("OpenAIChatClientWithMemory")
+    ChatClient OpenAIChatClientWithMemory(OpenAiChatModel openAiChatModel, ChatMemory chatMemory)
+    {
+        return ChatClient.builder(openAiChatModel)
+//                .defaultAdvisors(MessageChatMemoryAdvisor.builder(chatMemory).build())
+                .build();
     }
 
     @Bean("HuggingFaceChatClient")

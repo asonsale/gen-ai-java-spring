@@ -1,0 +1,106 @@
+2026-08-18 18:48:36 [main] INFO  traceId= spanId= c.g.j.s.GenAiJavaSpringApplicationTests - Starting GenAiJavaSpringApplicationTests using Java 25.0.4 with PID 3924 (started by asons in C:\Users\asons\OneDrive\Documents\Interview_Notes\Assignment\gen-ai-java-spring\gen-ai-java-spring)
+2026-08-18 18:48:36 [main] INFO  traceId= spanId= c.g.j.s.GenAiJavaSpringApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2026-08-18 18:48:43 [main] INFO  traceId= spanId= c.g.j.s.GenAiJavaSpringApplicationTests - Started GenAiJavaSpringApplicationTests in 8.789 seconds (process running for 17.53)
+2026-08-18 18:49:38 [main] INFO  traceId= spanId= c.g.j.s.GenAiJavaSpringApplication - Starting GenAiJavaSpringApplication using Java 25.0.4 with PID 12372 (C:\Users\asons\OneDrive\Documents\Interview_Notes\Assignment\gen-ai-java-spring\gen-ai-java-spring\target\classes started by asons in C:\Users\asons\OneDrive\Documents\Interview_Notes\Assignment\gen-ai-java-spring\gen-ai-java-spring)
+2026-08-18 18:49:38 [main] INFO  traceId= spanId= c.g.j.s.GenAiJavaSpringApplication - No active profile set, falling back to 1 default profile: "default"
+2026-08-18 18:49:41 [main] INFO  traceId= spanId= o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-08-18 18:49:41 [main] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-08-18 18:49:41 [main] INFO  traceId= spanId= o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-08-18 18:49:41 [main] INFO  traceId= spanId= o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.49]
+2026-08-18 18:49:41 [main] INFO  traceId= spanId= o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-08-18 18:49:41 [main] INFO  traceId= spanId= o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3384 ms
+2026-08-18 18:49:42 [main] INFO  traceId= spanId= c.g.j.s.GenAiJavaSpringApplication - Starting GenAiJavaSpringApplication using Java 25.0.4 with PID 33632 (C:\Users\asons\OneDrive\Documents\Interview_Notes\Assignment\gen-ai-java-spring\gen-ai-java-spring\target\classes started by asons in C:\Users\asons\OneDrive\Documents\Interview_Notes\Assignment\gen-ai-java-spring\gen-ai-java-spring)
+2026-08-18 18:49:42 [main] INFO  traceId= spanId= c.g.j.s.GenAiJavaSpringApplication - No active profile set, falling back to 1 default profile: "default"
+2026-08-18 18:49:44 [main] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2026-08-18 18:49:44 [main] INFO  traceId= spanId= o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2026-08-18 18:49:44 [main] INFO  traceId= spanId= c.g.j.s.GenAiJavaSpringApplication - Started GenAiJavaSpringApplication in 8.209 seconds (process running for 9.465)
+2026-08-18 18:49:45 [main] INFO  traceId= spanId= o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-08-18 18:49:45 [main] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-08-18 18:49:45 [main] INFO  traceId= spanId= o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-08-18 18:49:45 [main] INFO  traceId= spanId= o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.49]
+2026-08-18 18:49:45 [main] INFO  traceId= spanId= o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-08-18 18:49:45 [main] INFO  traceId= spanId= o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2616 ms
+2026-08-18 18:49:47 [main] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2026-08-18 18:49:47 [main] WARN  traceId= spanId= o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2026-08-18 18:49:47 [main] INFO  traceId= spanId= o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-08-18 18:49:47 [main] ERROR traceId= spanId= o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8081 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8081 or configure this application to listen on another port.
+
+2026-08-18 18:51:14 [http-nio-8081-exec-1] INFO  traceId= spanId= o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-08-18 18:51:14 [http-nio-8081-exec-1] INFO  traceId= spanId= o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-08-18 18:51:14 [http-nio-8081-exec-1] INFO  traceId= spanId= o.s.web.servlet.DispatcherServlet - Completed initialization in 13 ms
+2026-08-18 18:51:14 [http-nio-8081-exec-1] WARN  traceId= spanId= o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingRequestHeaderException: Required request header 'user-id' for method parameter type String is not present]
+2026-08-18 18:52:18 [http-nio-8081-exec-4] WARN  traceId= spanId= o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingRequestHeaderException: Required request header 'user-id' for method parameter type String is not present]
+2026-08-18 18:52:47 [http-nio-8081-exec-6] WARN  traceId= spanId= o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingRequestHeaderException: Required request header 'user-id' for method parameter type String is not present]
+2026-08-18 18:54:50 [http-nio-8081-exec-8] INFO  traceId= spanId= c.g.j.s.chat.memory.OrderController - Chat memory for current user: ORD-1
+2026-08-18 18:55:57 [http-nio-8081-exec-9] INFO  traceId= spanId= c.g.j.s.chat.memory.OrderController - Chat memory for current user: user-1
+2026-08-18 18:59:53 [http-nio-8081-exec-3] INFO  traceId= spanId= c.g.j.s.chat.memory.OrderController - Chat memory for current user: user-1
+2026-08-18 19:02:21 [SpringApplicationShutdownHook] INFO  traceId= spanId= o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-08-18 19:02:21 [tomcat-shutdown] INFO  traceId= spanId= o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-08-18 19:03:16 [main] INFO  traceId= spanId= c.g.j.s.GenAiJavaSpringApplication - Starting GenAiJavaSpringApplication using Java 25.0.4 with PID 12440 (C:\Users\asons\OneDrive\Documents\Interview_Notes\Assignment\gen-ai-java-spring\gen-ai-java-spring\target\classes started by asons in C:\Users\asons\OneDrive\Documents\Interview_Notes\Assignment\gen-ai-java-spring\gen-ai-java-spring)
+2026-08-18 19:03:16 [main] INFO  traceId= spanId= c.g.j.s.GenAiJavaSpringApplication - No active profile set, falling back to 1 default profile: "default"
+2026-08-18 19:03:21 [main] INFO  traceId= spanId= o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-08-18 19:03:21 [main] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-08-18 19:03:21 [main] INFO  traceId= spanId= o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-08-18 19:03:21 [main] INFO  traceId= spanId= o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.49]
+2026-08-18 19:03:22 [main] INFO  traceId= spanId= o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-08-18 19:03:22 [main] INFO  traceId= spanId= o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 5764 ms
+2026-08-18 19:03:24 [main] INFO  traceId= spanId= c.g.j.s.GenAiJavaSpringApplication - Starting GenAiJavaSpringApplication using Java 25.0.4 with PID 26152 (C:\Users\asons\OneDrive\Documents\Interview_Notes\Assignment\gen-ai-java-spring\gen-ai-java-spring\target\classes started by asons in C:\Users\asons\OneDrive\Documents\Interview_Notes\Assignment\gen-ai-java-spring\gen-ai-java-spring)
+2026-08-18 19:03:25 [main] INFO  traceId= spanId= c.g.j.s.GenAiJavaSpringApplication - No active profile set, falling back to 1 default profile: "default"
+2026-08-18 19:03:30 [main] INFO  traceId= spanId= o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-08-18 19:03:31 [main] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-08-18 19:03:31 [main] INFO  traceId= spanId= o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-08-18 19:03:31 [main] INFO  traceId= spanId= o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.49]
+2026-08-18 19:03:31 [main] INFO  traceId= spanId= o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-08-18 19:03:31 [main] INFO  traceId= spanId= o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 5985 ms
+2026-08-18 19:03:33 [main] INFO  traceId= spanId= o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2026-08-18 19:03:33 [main] INFO  traceId= spanId= c.g.j.s.GenAiJavaSpringApplication - Started GenAiJavaSpringApplication in 20.003 seconds (process running for 23.384)
+2026-08-18 19:03:33 [SpringApplicationShutdownHook] INFO  traceId= spanId= o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-08-18 19:03:33 [tomcat-shutdown] INFO  traceId= spanId= o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-08-18 19:03:34 [main] INFO  traceId= spanId= o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2026-08-18 19:03:34 [main] INFO  traceId= spanId= c.g.j.s.GenAiJavaSpringApplication - Started GenAiJavaSpringApplication in 13.204 seconds (process running for 15.818)
+2026-08-18 19:03:34 [SpringApplicationShutdownHook] INFO  traceId= spanId= o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-08-18 19:03:34 [tomcat-shutdown] INFO  traceId= spanId= o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-08-18 19:03:50 [main] INFO  traceId= spanId= c.g.j.s.GenAiJavaSpringApplication - Starting GenAiJavaSpringApplication using Java 25.0.4 with PID 22180 (C:\Users\asons\OneDrive\Documents\Interview_Notes\Assignment\gen-ai-java-spring\gen-ai-java-spring\target\classes started by asons in C:\Users\asons\OneDrive\Documents\Interview_Notes\Assignment\gen-ai-java-spring\gen-ai-java-spring)
+2026-08-18 19:03:50 [main] INFO  traceId= spanId= c.g.j.s.GenAiJavaSpringApplication - No active profile set, falling back to 1 default profile: "default"
+2026-08-18 19:03:54 [main] INFO  traceId= spanId= o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-08-18 19:03:54 [main] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-08-18 19:03:54 [main] INFO  traceId= spanId= o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-08-18 19:03:54 [main] INFO  traceId= spanId= o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.49]
+2026-08-18 19:03:54 [main] INFO  traceId= spanId= o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-08-18 19:03:54 [main] INFO  traceId= spanId= o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3520 ms
+2026-08-18 19:04:23 [main] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2026-08-18 19:04:23 [main] INFO  traceId= spanId= o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2026-08-18 19:04:23 [main] INFO  traceId= spanId= c.g.j.s.GenAiJavaSpringApplication - Started GenAiJavaSpringApplication in 35.039 seconds (process running for 37.182)
+2026-08-18 19:04:54 [http-nio-8081-exec-2] INFO  traceId= spanId= o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-08-18 19:04:54 [http-nio-8081-exec-2] INFO  traceId= spanId= o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-08-18 19:04:54 [http-nio-8081-exec-2] INFO  traceId= spanId= o.s.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2026-08-18 19:04:54 [http-nio-8081-exec-2] INFO  traceId= spanId= c.g.j.s.chat.memory.OrderController - Chat memory for current user: user-1
+2026-08-18 19:14:35 [http-nio-8081-exec-5] INFO  traceId= spanId= c.g.j.s.chat.memory.OrderController - Chat memory for current user: user-0
+2026-08-18 19:19:29 [http-nio-8081-exec-7] INFO  traceId= spanId= c.g.j.s.chat.memory.OrderController - Chat memory for current user: user-0
+2026-08-18 19:23:23 [http-nio-8081-exec-10] INFO  traceId= spanId= c.g.j.s.chat.memory.OrderController - Chat memory for current user: user-2
+2026-08-18 19:26:22 [http-nio-8081-exec-4] INFO  traceId= spanId= c.g.j.s.chat.memory.OrderController - Chat memory for current user: user-2
+2026-08-18 19:27:57 [http-nio-8081-exec-6] INFO  traceId= spanId= c.g.j.s.chat.memory.OrderController - Chat memory for current user: user-2
+2026-08-18 19:39:30 [http-nio-8081-exec-9] INFO  traceId= spanId= c.g.j.s.chat.memory.OrderController - Chat memory for current user: user-2
+2026-08-18 19:42:26 [http-nio-8081-exec-2] INFO  traceId= spanId= c.g.j.s.chat.memory.OrderController - Chat memory for current user: user-2
+2026-08-18 19:43:39 [http-nio-8081-exec-5] INFO  traceId= spanId= c.g.j.s.chat.memory.OrderController - Chat memory for current user: user-2
+2026-08-18 19:44:55 [http-nio-8081-exec-7] INFO  traceId= spanId= c.g.j.s.chat.memory.OrderController - Chat memory for current user: user-2
+2026-08-18 19:46:08 [http-nio-8081-exec-10] INFO  traceId= spanId= c.g.j.s.chat.memory.OrderController - Chat memory for current user: user-2
+2026-08-18 19:46:51 [http-nio-8081-exec-2] INFO  traceId= spanId= c.g.j.s.chat.memory.OrderController - Chat memory for current user: user-2
+2026-08-18 19:59:07 [http-nio-8081-exec-8] INFO  traceId= spanId= c.g.j.s.chat.memory.OrderController - Chat memory for current user: user-2
+2026-08-18 20:01:57 [http-nio-8081-exec-1] INFO  traceId= spanId= c.g.j.s.chat.memory.OrderController - Chat memory for current user: user-2
+2026-08-18 20:04:27 [SpringApplicationShutdownHook] INFO  traceId= spanId= o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-08-18 20:04:27 [tomcat-shutdown] INFO  traceId= spanId= o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
